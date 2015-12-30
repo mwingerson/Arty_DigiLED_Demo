@@ -1,0 +1,13 @@
+
+#ifndef DIGILED_H	/* prevent circular inclusions */
+#define DIGILED_H	/* by using protection macros */
+
+void enable_LEDs(void);
+
+void disable_LEDs(void);
+
+void SetLEDColor(int led, uint16_t hue, uint8_t sat, uint8_t val);
+
+void clearLEDs(int led_num);
+
+#endif

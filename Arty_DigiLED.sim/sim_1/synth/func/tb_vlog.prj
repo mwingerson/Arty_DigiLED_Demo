@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "tb_func_synth.v" --include "../../../../Arty_DigiLED.ip_user_files/ipstatic/axi_infrastructure_v1_1/hdl/verilog"
+verilog xil_defaultlib  "../../../../Arty_DigiLED.srcs/sim_1/new/tb.v" --include "../../../../Arty_DigiLED.ip_user_files/ipstatic/axi_infrastructure_v1_1/hdl/verilog"
+
+# Do not sort compile order
+nosort

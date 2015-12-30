@@ -1,0 +1,21 @@
+15:58:33 **** Auto Build of configuration Debug for project Arty_DigiLED ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Arty_DigiLED_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Arty_DigiLED.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Arty_DigiLED_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "Arty_DigiLED.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Arty_DigiLED.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Arty_DigiLED.elf  |tee "Arty_DigiLED.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  17428	   1424	   3340	  22192	   56b0	Arty_DigiLED.elf
+'Finished building: Arty_DigiLED.elf.size'
+' '
+
+15:58:33 Build Finished (took 461ms)
+

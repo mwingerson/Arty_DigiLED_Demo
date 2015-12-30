@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Tue Dec 08 14:23:22 2015
+# Process ID: 12788
+# Current directory: C:/workspace/Arty_DigiLED/Arty_DigiLED.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/workspace/Arty_DigiLED/Arty_DigiLED.sdk/webtalk/webtalk.log
+# Journal file: C:/workspace/Arty_DigiLED/Arty_DigiLED.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
